@@ -14,7 +14,7 @@
 				<input type="text" id="username" name="username" th:placeholder="Username"/> <br/>
 				<input type="password" id="password" name="password" th:placeholder="Password"/> <br/>
 				<div align="center" th:if="${param.error}">
-					<h4 style="color: red">Login unsuccessful.</h4>
+					<h4 style="color: orange">Login unsuccessful.</h4>
 				</div>
 				<button class="btn btn-md btn-success btn-block" name="Submit" value="Login"
 				        type="Submit">Log in</button>			
@@ -22,3 +22,5 @@
 		</div>
 	</body>
 </html>
+
+<!-- Remember that html displays on browswer -->
